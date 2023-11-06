@@ -1,0 +1,91 @@
+.header {
+    display: flex;
+    margin-top: 70px;
+}
+
+.hfone {
+    margin-right: 120px;
+}
+
+.hfones1 {
+    padding-top: 40px;
+}
+
+.hfone h1 {
+    font-size: 65px;
+}
+
+.hfone p {
+    font-size: 20px;
+    line-height: 40px;
+    color: #353535;
+}
+
+.ul {
+    background-color: aqua;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-flex;
+    font-size: 20px;
+    margin-top: 38px;
+}
+
+.li1 {
+    background-color: black;
+    color: white;
+    padding: 8px 40px;
+}
+
+.li2{
+    padding: 8px 20px;
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+.proimg {
+    width: 460px;
+    height: 570px;
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .header {        
+        flex-direction: column-reverse;
+        margin-top: 30px;
+    }
+
+    .hfone {
+        margin-right: 0;
+    }    
+
+    .hfones1 {
+        padding-top: 30px;        
+    }
+
+    .hfone h1 {
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .hfone p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .ul {        
+        margin-top: 38px;
+    }
+    
+    .li1 {        
+        padding: 8px 20px;
+    }
+    
+    .li2{
+        padding: 8px 10px;        
+    }
+    
+    .proimg {
+        width: 300px;
+        height: 350px;
+        border-radius: 50%;        
+    }
+}

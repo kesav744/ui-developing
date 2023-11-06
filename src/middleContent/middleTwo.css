@@ -1,0 +1,119 @@
+.mt1 {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    padding: 10% 13%;
+}
+
+.mttop {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.mttopdiv {
+    margin-top: 55px;   
+}
+
+.mth1 {
+    font-size: 65px;
+}
+
+.mtp1 {
+    padding-top: 80px;
+    font-size: 39px;
+    line-height: 55px;
+    padding-bottom: 60px;
+}
+
+.mtbottom {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mtImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.mtbinnerdiv {
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.mtbinnerdiv span {
+    font-size: 24px;
+    display: block;
+}
+
+.mts2 {
+    color: #353535;
+    padding-top: 8px;
+}
+
+.mttopdiv button {
+    color: rgb(255, 255, 255);
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: black;
+    cursor: pointer;
+    font-weight: lighter;
+    font-size: 45px;
+}
+
+.buttonfor {
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+    
+    
+    .mttopdiv {
+        margin-top: 20px;
+        display: flex;   
+        justify-content: space-between;
+    }
+    
+    .mth1 {
+        font-size: 35px;
+    }
+    
+    .mtp1 {
+        padding-top: 40px;
+        font-size: 19px;
+        line-height: 25px;        
+    }
+        
+    .mtImg {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .mtbinnerdiv {
+        margin-top: 4px;
+        margin-left: 17px;
+    }
+    
+    .mtbinnerdiv span {
+        font-size: 17px;
+        font-weight: 600;
+    }
+    
+    .mts2 {
+        padding-top: 3px;
+    }
+    
+    .mttopdiv button {
+        width: 42px;
+        height: 42px;
+        font-size: 30px;
+    }
+    
+    .buttonfor {
+        margin-right: 10px;
+    }
+}

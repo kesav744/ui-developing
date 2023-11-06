@@ -1,0 +1,152 @@
+.bottomcard {
+    background-color: #f6f6f6;    
+}
+
+.bottom {
+    display: flex;
+    max-width: 84%;
+    margin: 0 auto;
+    padding-top: 172px;
+    padding-bottom: 230px;
+    justify-content: space-between;
+}
+
+.bottomflex1 {
+    width: 45%;
+    margin-left: 60px;
+}
+
+.bottomh2 {
+    margin-left: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.bp1 {
+    color: #353535;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.bottomul {
+    list-style: none;
+    display: flex;
+    margin: 50px 0 50px 0;
+    padding: 0;
+}
+
+.bottomulli {
+    padding-right: 12px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.bp2 {
+    font-size: 19px;
+    padding-top: 50px;
+    
+}
+
+.bottomflex2 {
+    width: 50%;
+    margin-left: 180px;
+}
+
+.bottomh1 {
+    font-size: 60px;
+    margin-top: -40px;
+}
+
+.bf2d {
+    padding: 50px 0;
+}
+
+.bf2i1 {
+    font-size: 18px;
+    margin-right: 4px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    line-height: 28px;
+    margin-right: 45px;
+}
+
+.bf2i2 {
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    line-height: 28px;
+}
+
+.bf2i3 {
+    font-size: 18px;
+    width: 100%;
+}
+
+.bf2b {
+    background-color: black;
+    border: 1px solid black;
+    color: #fff;
+    margin-top: 30px;
+    padding: 12px 18px;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 500px) {    
+    
+    .bottom {        
+        flex-direction: column-reverse;
+        padding-top: 72px;
+    }
+    
+    .bottomflex1 {
+        margin-top: 47px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .bp1 {
+        font-size: 19px;
+        line-height: 27px;
+    }
+    
+    .bottomul {
+        margin: 30px 0 40px 0;
+    }    
+   
+    .bp2 {
+        font-size: 19px;
+        padding-top: 30px; 
+        font-style: italic;       
+    }
+
+    .bp3 {
+        font-size: 14px;
+    }
+    
+    .bottomflex2 {
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .bottomh1 {
+        font-size: 33px;        
+    }
+    
+    .bf2d {
+        padding: 30px 0;
+    }
+    
+    .bf2i1 {
+        margin-right: 0px;
+        margin-bottom: 16px;
+    }
+    
+    .bf2b {
+        margin-top: 20px;
+        padding: 8px 9px;
+        font-size: 16px;
+    }
+    
+}
+
